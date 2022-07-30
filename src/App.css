@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  /* display: flex; */
+  width: 100vw;
+  min-height: 100vw;
 }
 
 .App-logo {
@@ -35,4 +38,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-item{
+  margin: 10px;
 }
