@@ -1,28 +1,16 @@
 import React from "react";
-
+import Profile_img from "../../assets/profile.png";
 function Navbar() {
   return (
     <>
-      <div className="navbar" style={{ display: "flex" }}>
-        <a href="">
-          <div className="nav-item">Profile</div>
-        </a>
-
-        <a href="">
-          <div className="nav-item">Profile</div>
-        </a>
-        <a href="">
-          <div className="nav-item">Experience</div>
-        </a>
-        <a href="">
-          <div className="nav-item">Education</div>
-        </a>
-        <a href="">
-          <div className="nav-item">Skills</div>
-        </a>
-        <a href="">
-          <div className="nav-item">Contact</div>
-        </a>
+      <div className="nav" >
+        <div className="nav-img">
+          <img src={Profile_img} alt="" height="50px" />
+        </div>
+        <div className="nav-item">
+          <div className="nav-name">Iffan Hayeeisma-ae</div>
+  
+        </div>
       </div>
     </>
   );
