@@ -12,7 +12,7 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #343a40;
+  --gray-dark: #353535;
   --primary: #79efb4;
   --secondary: #6c757d;
   --success: #28a745;
@@ -20,7 +20,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
-  --dark: #343a40;
+  --dark: #353535;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -30,18 +30,27 @@
 }
 
 * {
-  font-family: "Poppins", sans-serif;
-  color: var(--white);
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Kanit', sans-serif;
+  /* color: var(--white); */
 }
 
 html {
   background-color: var(--bg-dark);
 }
 
-.body {
-  width: 100vw;
-  height: 100vh;
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #121212;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #8c8c8c;
+  letter-spacing: 3px;
+  /* width: 98vw; */
+  /* height: 90vh; */
   background-image: url('https://img.freepik.com/premium-vector/space-art-banner-with-galaxy-abstract-space-background-web-print-social-media-design_391155-329.jpg?w=2000');
+  color: #8c8c8c;
 }
 .App {
   text-align: center;
@@ -88,22 +97,34 @@ a {
   color: var(--danger);
 }
 /* 
-? optional
+---------------------
+ - Optional -
+---------------------
 */
 .under-line {
   border-bottom: 1px solid var(--danger);
   margin: 20px 10% 20px 10%;
 }
 
+.text-white {
+  color: var(--white);
+}
+
+.text-danger {
+  color: var(--red);
+}
+
 /* 
-* cover 
+---------------------
+ - Cover -
+---------------------
 */
 .cover {
   align-items: center;
   justify-content: center;
   align-content: center;
-  width: 100vw;
-  height: 90vh;
+  width: 98vw;
+  height: 100vh;
 }
 
 .cover-intro {
@@ -127,11 +148,27 @@ a {
   font-size: 1.2rem;
 }
 
-
 .nav-name:hover {
   cursor: pointer;
   color: var(--red-incease);
   transition: 0.2s;
 }
 
+.title-bg {
+  display: absolute;
+  /* color: #626262; */
+  color: #9090901f;
+  text-transform: uppercase;
+  width: 60%;
+  margin: 0 auto;
+  height: 100px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.description {
+  font-size: 1rem;
+}
 
+.content {
+  margin-top: px;
+}

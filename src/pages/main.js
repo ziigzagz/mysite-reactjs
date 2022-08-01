@@ -3,13 +3,14 @@ import Navbar from "./components/navbar";
 import Profile from "./components/profile";
 import Cover from "./components/cover";
 import Footer from "./components/footer";
+import About from "./components/about";
 function Main() {
   return (
     <>
  {/* 
  create at => 30-07-2022
  CHECK-LIST
- [] cover
+ [/] cover
  [] profile
  [] education
  [] project
@@ -23,6 +24,7 @@ function Main() {
         <Cover />
         <Profile />
         <Footer />
+        <About />
       </div>
     </>
   );

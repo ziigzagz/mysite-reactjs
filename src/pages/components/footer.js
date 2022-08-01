@@ -3,7 +3,7 @@ function Footer() {
     return ( 
         <>
         <div className="footer">
-            <div className="footer-contact">contact me</div>
+            <div className="footer-contact text-white">contact me</div>
             <div className="footer-item"></div>
             <div className="footer-item"></div>
             <div className="under-line"></div>
