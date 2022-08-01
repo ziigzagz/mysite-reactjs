@@ -26,7 +26,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --bg-dark: #121212;
+  --bg-dark: #242424;
 }
 
 * {
@@ -45,7 +45,7 @@ body {
   font-size: 18px;
   line-height: 1.8;
   font-weight: 400;
-  color: #8c8c8c;
+  color: #ababab;
   letter-spacing: 3px;
   /* width: 98vw; */
   /* height: 90vh; */
@@ -97,9 +97,9 @@ a {
   color: var(--danger);
 }
 /* 
----------------------
+------------------------------------------
  - Optional -
----------------------
+------------------------------------------
 */
 .under-line {
   border-bottom: 1px solid var(--danger);
@@ -115,9 +115,9 @@ a {
 }
 
 /* 
----------------------
+------------------------------------------
  - Cover -
----------------------
+------------------------------------------
 */
 .cover {
   align-items: center;
@@ -132,7 +132,9 @@ a {
 }
 
 /*
-* nav 
+------------------------------------------
+  - Nav 
+------------------------------------------
 */
 
 .nav {
@@ -165,10 +167,11 @@ a {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .description {
   font-size: 1rem;
 }
 
 .content {
-  margin-top: px;
+  margin-top: 1px;
 }

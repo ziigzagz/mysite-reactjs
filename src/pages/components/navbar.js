@@ -1,5 +1,5 @@
 import React from "react";
-import Profile_img from "../../assets/profile.png";
+// import Profile_img from "../../assets/profile.png";
 function Navbar() {
   return (
     <>

@@ -9,7 +9,7 @@ function Cover() {
               href="/#"
               class="typewrite"
               data-period="2000"
-              data-type='[ "Hello, Im Iffan Hayeeisma-ae.", "I am Programmer.", "I Love Design.", "I Love to Develop." ]'>
+              data-type='[ "Hello, I`m Iffan Hayeeisma-ae.", "I am Programmer.", "I Love Design.", "I Love to Develop." ]'>
               <span class="wrap"></span>
             </a>
           </h1>
