@@ -4,6 +4,7 @@ import Profile from "./components/profile";
 import Cover from "./components/cover";
 import Footer from "./components/footer";
 import About from "./components/about";
+import Education from "./components/education";
 function Main() {
   return (
     <>
@@ -23,8 +24,9 @@ function Main() {
         <Navbar />
         <Cover />
         <Profile />
-        <Footer />
         <About />
+        <Education />
+        <Footer />
       </div>
     </>
   );
