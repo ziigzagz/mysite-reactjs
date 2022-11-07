@@ -19,6 +19,7 @@ function Main() {
  [] skill
  [] contact
  [] footer
+ 
  */}
       <div className="overlay">
         <Navbar />
